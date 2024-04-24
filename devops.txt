@@ -1,0 +1,50 @@
+linux commands:
+
+clear : clears commands
+history : displays all commands we have used
+
+list: ls
+ls -l :listas all files
+ls -lt : lists file created as per created time
+ls -lrt : reverse of time
+ls -lt | head -n2 : displays fst 2 files
+| : pipe command we can use 2 commands using this
+ls -lt | tail -n3 : lista the last 3 files
+ls -a : list hidden files
+
+touch file.txt : create files
+
+cd : change directory
+mkdir : make dir
+pwd : present working directory
+cd.. go back to dir
+cd ../.. goes back 2 dir
+rmdir : removes only empty dir
+rm : remove files
+rm -r dirname : dele dir with all files in it
+
+vi filename
+insert mode - i
+save text: esc+:wq or esc + :wq!
+not save : esc+:q!
+cat filename : to display contents in file
+head -n 2 filename : first 2 lines of content
+tail "------"      : last 2 lines
+
+cp <src path> <targetpath> : copies srcpath file to trgt
+mv : moves the file
+
+wc filename : dispays no of lines, word count, char count
+
+diff f1 f2 : campares 2 files n shows the diffence
+
+SDLC : software devlopment life cycle 
+planning, analysis, design, dev & implementation, testing, deploy & maintenance
+
+git hub
+git --version : chk version
+if not apt install git : it will install
+git config --list : to configure 
+git config --global user.name "chandana"
+git config --list
+user.email
